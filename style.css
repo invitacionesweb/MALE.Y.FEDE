@@ -208,6 +208,15 @@ header {
 .galeria img {
     width: 25vw;
 }
+.galeria1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr; 
+}
+
+.galeria1 img {
+    width: 50vw;
+}
 .timing { 
     width: 100%;
     height: 80vh;
@@ -395,6 +404,9 @@ footer img {
        
        
     }
+    .f4 {
+        display: none ;
+    }
     .galeria {
         width: 100%;
         display: grid;
@@ -403,6 +415,16 @@ footer img {
 
     .galeria img {
         width: 50vw;
+    }
+
+    .galeria1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr; 
+    }
+
+    .galeria1 img {
+        width: 100vw;
     }
     .caja {
         background-image: url(./figuras/caja1.png);
