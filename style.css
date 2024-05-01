@@ -354,7 +354,7 @@ footer img {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height:AUTO;
+    height:100%;
     display: flex;
     justify-content: center;
     
@@ -362,7 +362,7 @@ footer img {
 
 }
 .end-names img{
-    width: 100vw;
+    width: 300px;
     height: auto;
     max-width: 600px;
     padding: 0;
@@ -441,7 +441,7 @@ footer img {
      }
     .end {
         background-attachment: unset;
-        height:180px;
+        height:auto;
 
     }
 
